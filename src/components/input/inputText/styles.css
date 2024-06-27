@@ -1,0 +1,16 @@
+.inputText {
+    @apply bg-gray-200 rounded-2xl shadow-md w-full px-5;
+}
+
+.inputText--md {
+    @apply h-16;
+}
+
+.inputText--lg {
+    @apply h-32 lg:h-80 placeholder:align-top;
+}
+
+.inputText--login {
+    @apply w-2/3 border-b-2 border-white focus:outline-none bg-transparent text-white;
+}
+

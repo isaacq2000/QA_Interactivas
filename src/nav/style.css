@@ -1,0 +1,19 @@
+    .sidebar {
+        background-color: rgb(254, 254, 254);
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        transition: transform 0.3s ease;
+    }
+
+    .translate-x-0 {
+        transform: translateX(0);
+    }
+
+    .-translate-x-full {
+        transform: translateX(-100%);
+    }
+
+    .MuiBottomNavigation-root{
+        z-index: 50;
+    }

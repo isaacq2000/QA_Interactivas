@@ -1,0 +1,8 @@
+
+export default function NewTaskButton({onClickCustom}) {
+    return (
+        <div onClick={onClickCustom} className="w-max rounded-full p-3 xl:p-4 shadow-inner bg-[#5677FC] cursor-pointer hover:scale-105 duration-300">
+            <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" fill="none"><g filter="url(#a)"><path fill="#FFFFFF" d="M38.5 16.25h-11V5.417c0-1.437-.58-2.815-1.61-3.83A5.543 5.543 0 0 0 22 0c-1.459 0-2.858.57-3.89 1.587a5.376 5.376 0 0 0-1.61 3.83l.195 10.833H5.5c-1.459 0-2.858.57-3.89 1.587A5.375 5.375 0 0 0 0 21.666c0 1.436.58 2.814 1.61 3.83a5.543 5.543 0 0 0 3.89 1.586l11.195-.192-.195 11.026c0 1.436.58 2.814 1.61 3.83A5.543 5.543 0 0 0 22 43.333c1.459 0 2.858-.57 3.89-1.586a5.375 5.375 0 0 0 1.61-3.83V26.89l11 .192c1.459 0 2.858-.57 3.89-1.586a5.375 5.375 0 0 0 1.61-3.83c0-1.437-.58-2.815-1.61-3.83a5.543 5.543 0 0 0-3.89-1.587Z" /></g><defs><filter id="a" width="44" height="47.334" x="0" y="0" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix" /><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" /><feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" /><feOffset dy="4" /><feGaussianBlur stdDeviation="2" /><feComposite in2="hardAlpha" k2="-1" k3="1" operator="arithmetic" /><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" /><feBlend in2="shape" result="effect1_innerShadow_124_1099" /></filter></defs></svg>
+        </div>
+    );
+}

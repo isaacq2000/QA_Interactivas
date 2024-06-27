@@ -1,0 +1,20 @@
+.button {
+    @apply h-16 w-80 text-2xl  rounded-full border border-transparent cursor-pointer hover:scale-105 duration-300;
+}
+
+.button--solid-blue {
+    @apply bg-g-blue text-white;
+}
+
+.button--border {
+    @apply border-2 border-black
+}
+
+.button--solid-red{
+    @apply bg-g-red text-white
+}
+
+.button--solid-discord-blue{
+    @apply bg-discord-blue text-white w-40
+}
+
